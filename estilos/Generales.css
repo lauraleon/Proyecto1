@@ -1,0 +1,184 @@
+
+.imagenprincipal{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-height:100%;
+    z-index: 0;
+} 
+.seccionbarra{
+     position: absolute;
+     top: 1em;
+     right:5em;
+     z-index:1;
+ }
+
+.listaderecha{
+    text-align: right;
+    font-family: "Helvetica Neue",Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.contenedornombreprincipal{
+    position: absolute;
+     top: 50%;
+     left:33% ;
+     z-index:1;
+}
+
+.nombre{
+    text-align: center;
+    font-size: 50px;
+    color:black;
+    font-family: Poppins, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 2.2;
+    text-shadow:0 0 0.1em rgb(244, 247, 247);
+    
+}
+
+.correo{
+    position: absolute;
+    top:80%;
+    left: 20%;
+}
+
+.linkedin{
+    position: absolute;
+    top:80%;
+    left: 40%;
+}
+
+.llamado{
+    position: absolute;
+    top: 80%;
+    left: 60%;
+}
+
+
+.contenedor1{
+    display: flex;
+    margin-top: 2em;
+}
+
+.sobremi{
+    float: left;
+    max-height:50%;
+}
+
+.perfil{
+    float: left;
+    width: 40%;
+    max-height:40%;
+    }
+
+p{
+    text-justify: auto;
+    font-size: 20px;
+    font-family: Poppins, Arial, sans-serif;
+    line-height: 1.5;
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start:2em;
+    margin-inline-end: 2em;
+}
+
+.skillsprogramacion{
+    text-justify: auto;
+    font-size: 20px;
+    font-family: Poppins, Arial, sans-serif;
+    line-height: 1.5;
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start:2em;
+    margin-inline-end: 2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+.saludo{
+
+    margin-top: 2em;
+    text-justify: auto;
+    font-size: 25px;
+    font-family: Poppins, Arial, sans-serif;
+    line-height: 1.5;
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start:2em;
+    margin-inline-end: 2em;
+
+}
+
+
+.botonesanimados{
+    margin-top: 10%;
+}
+.botondescargarcv{
+    margin-inline-start: 2em;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+    padding: 18px 20px;
+    border: 2px solid #222;
+    color: #000;
+    min-width: 154px;
+    margin-top: 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.botoncontactame{
+    margin-inline-start: 2em;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+    padding: 18px 20px;
+    border: 2px solid #222;
+    color: #000;
+    min-width: 154px;
+    margin-top: 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.proyectos{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-family: Poppins, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.proyecto1{
+    
+    top:80%;
+    left: 20%;
+}
+
+.proyecto2{
+    top: 80%;
+    left:40%;
+}
+
+.proyecto3{
+    top: :80%;
+    left: 60%;
+}
